@@ -5,6 +5,7 @@
     },
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/" },
+        {"src":"/app/(.*)","dest":"/public/app/"},  
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "outputDirectory":"public",

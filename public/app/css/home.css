@@ -56,3 +56,14 @@ a{
     box-shadow: 0 0 15px rgba(213, 213, 213, 0.782);
 
 }
+@media only screen and (max-width: 560px) {
+    .container .box{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+    .brew{
+        margin: auto;
+    }
+}
